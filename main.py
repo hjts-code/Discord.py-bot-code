@@ -61,4 +61,7 @@ async def on_member_join(member):
   canalboasvindas=client.get_channel(ID do canal) #Coloque o ID canal de boas vindas ali
   await canalboasvindas.send(f"Seja bem vind@ {member.mention}")
 
-client.run('TOKEN')
+client.run('TOKEN') #Troque o TOKEN pelo Token do seu bot
+
+
+#Site das cores para a embed: https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812
